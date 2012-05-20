@@ -30,6 +30,9 @@ handlers:
 - url: /rot13
   script: rot13.app
 
+- url: /css
+  static_dir: css
+
 - url: /.*
   script: main.app
 
